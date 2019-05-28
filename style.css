@@ -29,7 +29,8 @@
 
 .iphone {
     background: url(immagini/iphone.png);
-    background-position: center;  
+    background-position: center; 
+     
 }
 
 .cuffie {
@@ -57,4 +58,13 @@
     height: 20px;
     z-index: 1;
     background-color:red;
+}
+
+/*Seconda tabella*/
+
+#corposuperiore2 {
+    width: 780px;
+    height: 300px;
+    padding: 2px;
+    margin-top: 20px;
 }
