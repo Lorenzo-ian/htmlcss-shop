@@ -68,3 +68,23 @@
     padding: 2px;
     margin-top: 20px;
 }
+
+/* Vado ad assegnare hover */
+
+.cuore img {
+    display: none;
+    height: 30px;
+}
+
+.prodotto:hover img {
+    display: inline-block;
+}
+
+.cuore {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+}
