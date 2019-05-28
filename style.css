@@ -1,0 +1,29 @@
+#corposuperiore {
+    width: 758px;
+    height: 300px;
+    background-color:white;
+    padding: 2px;
+}
+
+#corposuperiore div {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.ipad {
+    background: url(immagini/ipad.png);
+    background-position: center;
+}
+
+.iphone {
+    background: url(immagini/iphone.png);
+    background-position: center;  
+}
+
+.cuffie {
+    background: url(immagini/cuffie.png);
+    background-position: center;   
+}
