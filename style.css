@@ -1,17 +1,26 @@
+/*prima tabella*/
+
+* {
+    box-sizing: border-box;
+
+}
+
 #corposuperiore {
-    width: 758px;
+    width: 780px;
     height: 300px;
-    background-color:white;
     padding: 2px;
 }
 
-#corposuperiore div {
-    width: 250px;
-    height: 300px;
+
+.prodotto {
     position: relative;
     display: inline-block;
-
+    z-index: 0;
+    width: 250px;
+    height: 300px;
 }
+
+/*prodotti prima tabella*/
 
 .ipad {
     background: url(immagini/ipad.png);
@@ -26,4 +35,26 @@
 .cuffie {
     background: url(immagini/cuffie.png);
     background-position: center;   
+}
+
+/*percentuale prima tabella*/
+
+.prodotto .percentuale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 20px;
+    z-index: 1;
+    background-color: green;
+}
+
+.prodotto .percentualerosso {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 20px;
+    z-index: 1;
+    background-color:red;
 }
